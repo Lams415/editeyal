@@ -85,3 +85,16 @@ header ul li{
     border: solid;
     color: gainsboro;
 }
+
+/*STEP*/
+.second-titre {
+    text-align: center;
+    font-size: small;
+    margin-bottom: 10px ;
+}
+.barre-de-separation-orange {
+    height: 2px;
+    margin: 5px 0px;
+    border: solid orangered;
+    background-color: orangered;
+}
