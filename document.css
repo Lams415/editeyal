@@ -47,8 +47,12 @@ a {
 }
 
 /*header*/
+
+ .eyal {
+    margin: 10px 0px -25px 200px;
+}
 header ul {
-    padding: 10px 0px 10px 20px;
+    padding-left: 10px;
 }
 header ul li{
     padding-bottom: 5px;
@@ -189,4 +193,10 @@ footer h1 {
     text-transform: initial;
     font-size: 14px;
     padding-top: 40px;
+}
+
+/*ordianteur*/
+
+@media screen and (min-width:1024px) {
+
 }
