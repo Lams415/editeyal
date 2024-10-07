@@ -20,7 +20,7 @@ h3,
 h4,
 article,
 p {
-    margin: 0px 0px 7px 15px;
+    margin: 0px 0px 7px 0px;
 }
 h1 {
     font-family: 'Crete Round', sans-serif;
@@ -31,11 +31,13 @@ h2 {
 }
 h4 {
     font-size: 24px;
+    padding-top: 43px;
 }
 
 p {
     line-height: 20px;
     color: #777;
+    padding-bottom: 25px;
 }
 
 ul {
@@ -101,6 +103,9 @@ header h4 {
 }
 
 /*STEP*/
+#espace {
+    padding: 15px;
+}
 .second-titre {
     margin-bottom: 10px ;
 }
@@ -110,9 +115,32 @@ header h4 {
     border: solid orangered;
     background-color: orangered;
 }
+i.fa-solid.fa-paper-plane  {
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 17px;
+}
+i.fa-solid.fa-paper-plane:after {
+    border: solid 2px rosybrown;
+    display: inline-block;
+    content: '';
+    left: 7%;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 110%;
+}
+/*
 .bordure {
-border-radius: 20% 50%;
-border: solid firebrick;
+    transform: rotate(45deg);
+    border-radius: 0.25rem;
+    border: solid 2px rgba(210, 215, 217, 0.75);
+    content: '';
+    display: block;
+    left: 50%;
+
+    position: absolute;
 }
 
 
@@ -199,4 +227,10 @@ footer h1 {
 
 @media screen and (min-width:1024px) {
 
+  /*header*/
+  header ul {
+    list-style: none;
+    display: flex;
+    margin-left: 370px;
+}
 }
