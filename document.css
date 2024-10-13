@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 15px;
 }
 
 h1,
@@ -18,20 +19,20 @@ h1,
 h2,
 h3,
 h4,
-article,
-p {
-    margin: 0px 0px 7px 0px;
+article {
+    margin: 25px 0px 0px 0px;
 }
 h1 {
     font-family: 'Crete Round', sans-serif;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 23px;
+    padding-bottom: 5px;
 }
 h4 {
     font-size: 24px;
-    padding-top: 43px;
+    padding-bottom: 5px;
 }
 
 p {
@@ -48,13 +49,26 @@ a {
     text-decoration: none;
 }
 
-/*header*/
+/*HEADER*/
 
- .eyal {
-    margin: 10px 0px -25px 200px;
+i.fa-solid.fa-bars.fa-xs {
+    font-weight: 900;
+    font-size: 15px;
+    background-color:gainsboro;
 }
-header ul {
-    padding-left: 10px;
+i.fa-solid.fa-bars.fa-xs:after {
+    border: solid 2px rgb(62, 61, 61); 
+    display: inline-block;
+    content: '';
+    left: 4%;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 1%;
+    border-radius: 20%;
+}
+ .eyal {
+    margin: 10px 0px -25px 185px;
 }
 header ul li{
     padding-bottom: 5px;
@@ -62,6 +76,9 @@ header ul li{
 header h4 {
     margin: 0px 262px 0px 10px;
     font-size: 24px;
+}
+.titre {
+    font-size: 20px ;
 }
 .gris {
     color: gray;
@@ -76,16 +93,19 @@ header h4 {
     background-color: orangered;
 }
 /*MAIN-image*/
-    #main-image h3 {
-        font-size: small;
-        margin-bottom: 15px;
-        color: #777;
-    }
+#main-image {
+    margin: initial;
+}
+#main-image h3 {
+font-size: 13px;
+margin-top: 7px;
+color: #777;
+}
 .image-centre {
-    margin: 0px 40px;
+    margin: 0px 25px;
 }
 .début {
-    padding-bottom: 10px;
+    padding:10px 0px 0px 0px ;
 }
 .bouton {
     display: block;
@@ -93,7 +113,7 @@ header h4 {
     color: #ff7a00;
     font-size: 13px;
     text-align: center;
-    margin: 10px 230px 0px 10px;
+    margin: 10px 210px -7px -1px;
     padding: 5px;
 } 
 .barre-de-separation {
@@ -107,7 +127,7 @@ header h4 {
     padding: 15px;
 }
 .second-titre {
-    margin-bottom: 10px ;
+    margin: -10px 0px 5px 0px;
 }
 .barre-de-separation-orange {
     height: 2px;
@@ -115,35 +135,76 @@ header h4 {
     border: solid orangered;
     background-color: orangered;
 }
+i.fa-solid.fa-gem {
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 17px;
+    padding-top: 28px;
+    color: rgba(194, 26, 26, 0.564);
+}
+i.fa-solid.fa-gem:after {
+    border: solid 2px rosybrown;
+    display: inline-block;
+    content: '';
+    left: 10%;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 82%;
+}
+
 i.fa-solid.fa-paper-plane  {
     font-weight: 900;
     font-size: 25px;
     padding-left: 17px;
+    color: rgba(194, 26, 26, 0.564);
 }
 i.fa-solid.fa-paper-plane:after {
     border: solid 2px rosybrown;
     display: inline-block;
     content: '';
-    left: 7%;
+    left: 11%;
     height: 3rem;
     width: 3rem;
     position: absolute;
     transform: rotate(45deg);
-    top: 110%;
+    top: 109%;
 }
-/*
-.bordure {
-    transform: rotate(45deg);
-    border-radius: 0.25rem;
-    border: solid 2px rgba(210, 215, 217, 0.75);
+i.fa-solid.fa-rocket {
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 22px;
+    color: rgba(194, 26, 26, 0.564);
+}
+i.fa-solid.fa-rocket::after {
+    border: solid 2px rosybrown;
+    display: inline-block;
     content: '';
-    display: block;
-    left: 50%;
-
+    left: 12%;
+    height: 3rem;
+    width: 3rem;
     position: absolute;
+    transform: rotate(45deg);
+    top: 136%;
 }
-
-
+i.fa-solid.fa-signal {
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 22px;
+    color: rgba(194, 26, 26, 0.564);
+} 
+i.fa-solid.fa-signal::after {
+    border: solid 2px rosybrown;
+    display: inline-block;
+    content: '';
+    left: 14%;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 163%;
+}
 /*CONCACT*/
 #Contact {
     text-align: center;
@@ -157,7 +218,7 @@ i.fa-solid.fa-paper-plane:after {
 }
 
 .form-space {
-    margin: 60px 0 20px 0;
+    margin: 40px 0px 20px 0px;
 }
 
 label {
@@ -220,7 +281,7 @@ footer h1 {
     font-weight: bold;
     text-transform: initial;
     font-size: 14px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 /*ordianteur*/
