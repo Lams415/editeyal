@@ -6,7 +6,8 @@
 }
 
 header,
-section {
+section,
+.main-section {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 15px;
 }
@@ -92,12 +93,6 @@ header h4 {
     vertical-align: middle;
     font-weight: bold;
 }
-.orange-bar {
-    height: 2px;
-    margin: 5px 0px;
-    border: solid orangered;
-    background-color: orangered;
-}
 /*MAIN-image*/
 .secondary-title {
     margin-right: 165px;
@@ -140,7 +135,7 @@ h2 {
     color: gainsboro;
 }
 
-/*STEP*/
+/*SECTION*/
 
 li#step p {
 
@@ -150,13 +145,6 @@ li#step p {
 }
 #spacing {
     padding: 15px;
-}
-
-.orange-separator-bar {
-    height: 2px;
-    margin: 5px 0px;
-    border: solid orangered;
-    background-color: orangered;
 }
 
 i.fa-solid.fa-gem {
@@ -229,7 +217,8 @@ i.fa-solid.fa-signal::after {
     transform: rotate(45deg);
     top: 158%;
 }
-/*CONTACT*/
+
+/*CONTACT
 #contact {
     text-align: center;
 }
@@ -317,7 +306,7 @@ footer h1 {
     padding-left: 57px;
   }
 .center-image {
-    margin: 0px 40px;
+    margin: 0px 35px;
 }
 /*STEP*/
 
